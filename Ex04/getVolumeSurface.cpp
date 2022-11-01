@@ -1,6 +1,6 @@
 #include "getVolumeSurface.h"
 
-//*surface = surfaceのアドレスにある値
+//*surface = surface縺ｮ繧｢繝峨Ξ繧ｹ縺ｫ縺ゅｋ蛟､
 int getVolumeSurface(double x, double y, double z, double *surface)
 {
 	*surface = ((x * y) + (y * z) + (x * z)) * 2;
